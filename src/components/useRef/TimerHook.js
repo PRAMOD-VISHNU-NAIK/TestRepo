@@ -18,7 +18,7 @@ function TimerHook() {
     },[])
   return (
     <div>
-        Hook Timer - {timer}
+        Pramod Timer - {timer}
         <button onClick={() => clearInterval(intervalRef.current)}>Clear Timer</button>
     </div>
   )
